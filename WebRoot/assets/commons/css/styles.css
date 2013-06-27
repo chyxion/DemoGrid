@@ -1,0 +1,35 @@
+/*消息提示*/
+#message-div {
+    position: absolute;
+    left: 35%;
+    top: 10px;
+    width: 300px;
+    z-index: 20000;
+}
+#message-div .msg {
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  border: 2px solid #ccc;
+  margin-top: 2px;
+  font-size: 14px;
+  padding: 10px 15px;
+  color: #555;
+}
+/*常规提示背景*/
+#message-div .bg-alert {
+    background: #F6F6F6;
+}
+/*警告提示背景*/
+#message-div .bg-warn {
+    background: #F6F0F0;
+}
+/*提示标题*/
+#message-div .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*提示内容*/
+#message-div .msg p {
+    margin: 0;
+}

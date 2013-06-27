@@ -1,0 +1,13 @@
+{
+    // 数据源
+    "database": {
+        "driver": "com.mysql.jdbc.Driver",
+        "url": " jdbc:mysql://chyxion-pad/demo",
+        "userName": "root",
+        "password": "0211",
+        // 数据库方言
+        "dialect": "MySQL",
+        // 默认字符小写
+        "lowercase": true
+    }
+}
