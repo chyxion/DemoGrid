@@ -1,3 +1,13 @@
+CREATE TABLE `users` (
+  `id` varchar(32) NOT NULL,
+  `name` varchar(64) NOT NULL,
+  `gender` char(1) NOT NULL DEFAULT 'M',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of users
+-- ----------------------------
 INSERT INTO `users` VALUES ('000827e315ee474c80dc936ac7fdddbc', 'user name [000595]', 'M');
 INSERT INTO `users` VALUES ('0009aad9b9a84e3eb06abbb5acf953eb', 'user name [008846]', 'F');
 INSERT INTO `users` VALUES ('000eed7ca5b54cbbb94ec58360b13ac2', 'user name [007765]', 'M');
