@@ -3,7 +3,7 @@ Ext.define ('App.views.user.UsersGrid', {
     paging: true,
     store: Store.create({
         autoLoad: true,
-        pageSize: 99,
+        pageSize: 1,
         url: 'user/list',
         fields: ['id', 'name', 'gender']
     }),
